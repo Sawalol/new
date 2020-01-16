@@ -14,6 +14,7 @@ public class PhoneBook {
     }
 
     public void del(int id) {
+
         contacts.remove(--id);
     }
 
